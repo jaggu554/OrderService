@@ -1,4 +1,4 @@
-package com.example.entiry;
+package com.example.entity;
 
 import java.sql.Date;
 
@@ -12,7 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table
+@Table(name="order_tbl")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
